@@ -1,11 +1,12 @@
 # check-usb-dongle-connection
-
-* [USBドングルのセットアップ](https://github.com/latonaio/iot-sim-soracom)
+USBドングルがエッジ端末に接続されたことを確認します。USBドングルのセットアップについては、下記を参考にしてください。   
+-  [USBドングルのセットアップ](https://github.com/latonaio/iot-sim-soracom)
 
 ### マイクロサービスのセットアップ
+リポジトリをCloneし、Docker build します。
 
 ```
-$ git clone git@bitbucket.org:latonaio/check-usb-dongle-connection.git
+$ git clone git@github.com:latonaio/check-usb-dongle-connection.git
 $ cd check-usb-dongle-connection
 $ make docker-build
 ```
